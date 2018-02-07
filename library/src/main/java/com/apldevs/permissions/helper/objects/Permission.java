@@ -1,4 +1,4 @@
-package com.amqtech.permissions.helper.objects;
+package com.apldevs.permissions.helper.objects;
 
 import java.io.Serializable;
 

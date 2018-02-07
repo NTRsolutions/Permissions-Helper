@@ -1,4 +1,4 @@
-package com.amqtech.permissions.sample;
+package com.apldevs.permissions.sample;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -6,9 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.amqtech.androidhelper.AndroidHelper;
-import com.amqtech.permissions.helper.objects.Permission;
-import com.amqtech.permissions.helper.objects.Permissions;
-import com.amqtech.permissions.helper.objects.PermissionsActivity;
+import com.amqtech.permissions.sample.R;
+import com.apldevs.permissions.helper.objects.Permission;
+import com.apldevs.permissions.helper.objects.Permissions;
+import com.apldevs.permissions.helper.objects.PermissionsActivity;
 
 public class MainActivity extends AppCompatActivity {
 

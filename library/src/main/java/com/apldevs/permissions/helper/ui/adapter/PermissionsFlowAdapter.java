@@ -1,4 +1,4 @@
-package com.amqtech.permissions.helper.ui.adapter;
+package com.apldevs.permissions.helper.ui.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.amqtech.permissions.helper.R;
-import com.amqtech.permissions.helper.objects.Permission;
+import com.apldevs.permissions.helper.objects.Permission;
 
 /**
  * Created by andrew on 5/20/16.

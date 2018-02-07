@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:supportsRtl="true">
         <activity
-            android:name=".ui.activity.PermissionsFlowActivity"
+            android:name="com.apldevs.permissions.helper.ui.activity.PermissionsFlowActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
     </application>
 

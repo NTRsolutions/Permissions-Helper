@@ -1,4 +1,4 @@
-package com.amqtech.permissions.helper.objects;
+package com.apldevs.permissions.helper.objects;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -10,13 +10,12 @@ import android.support.annotation.ColorRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.ColorUtils;
 import android.text.TextUtils;
 
 import com.amqtech.permissions.helper.R;
-import com.amqtech.permissions.helper.ui.activity.PermissionsFlowActivity;
+import com.apldevs.permissions.helper.ui.activity.PermissionsFlowActivity;
 
 import java.io.Serializable;
 import java.util.ArrayList;

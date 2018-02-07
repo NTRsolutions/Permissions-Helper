@@ -1,4 +1,4 @@
-package com.amqtech.permissions.helper.ui.activity;
+package com.apldevs.permissions.helper.ui.activity;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -18,9 +18,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.amqtech.permissions.helper.R;
-import com.amqtech.permissions.helper.objects.Permission;
-import com.amqtech.permissions.helper.objects.PermissionsActivity;
-import com.amqtech.permissions.helper.ui.adapter.PermissionsFlowAdapter;
+import com.apldevs.permissions.helper.objects.Permission;
+import com.apldevs.permissions.helper.objects.PermissionsActivity;
+import com.apldevs.permissions.helper.ui.adapter.PermissionsFlowAdapter;
 
 public class PermissionsFlowActivity extends AppCompatActivity {
 
