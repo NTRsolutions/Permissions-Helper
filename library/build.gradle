@@ -2,11 +2,11 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'com.github.apl-devs.perms-helper'
+    bintrayName = 'com.github.apl-devs.permissions-helper'
 
-    publishedGroupId = 'com.github.apl-devs'
-    libraryName = 'perms-helper'
-    artifact = 'perms-helper'
+    publishedGroupId = 'com.github.apl-devs.permissions-helper'
+    libraryName = 'permissions-helper'
+    artifact = 'permissions-helper'
 
     libraryDescription = 'A library that generates an activity based on the required permissions for your app. It loads the permissions into a list and will request them upon continuing through the activity flow.'
 
