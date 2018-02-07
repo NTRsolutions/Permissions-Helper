@@ -1,9 +1,27 @@
 apply plugin: 'com.android.library'
 
 ext {
-    PUBLISH_GROUP_ID = 'com.github.apl-devs'
-    PUBLISH_ARTIFACT_ID = 'perms-helper'
-    PUBLISH_VERSION = '1.1'
+    bintrayRepo = 'maven'
+    bintrayName = 'perms-helper'
+
+    publishedGroupId = 'com.github.apl-devs'
+    libraryName = 'Perms-Helper'
+    artifact = 'perms-helper'
+
+    libraryDescription = 'A library that generates an activity based on the required permissions for your app. It loads the permissions into a list and will request them upon continuing through the activity flow.'
+
+    siteUrl = 'https://github.com/apl-devs/Permissions-Helper'
+    gitUrl = 'https://github.com/apl-devs/Permissions-Helper.git'
+
+    libraryVersion = '1.1'
+
+    developerId = 'apl-devs'
+    developerName = 'Andrew Quebe'
+    developerEmail = 'andrewquebe@vexigon.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
 
 android {
@@ -42,3 +60,6 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:27.0.2'
     compile 'com.android.support:design:27.0.2'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
