@@ -1,21 +1,9 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'maven' // your repo name
-    bintrayName = 'Permissions-Helper' // has to be same as your library module name
-    publishedGroupId = 'com.github.apl-devs' // your module package name
-    libraryName = 'Permissions-Helper'
-    artifact = 'Permissions-Helper' // has to be same as your library module name
-    libraryDescription = 'A library that generates an activity based on the required permissions for your app. It loads the permissions into a list and will request them upon continuing through the activity flow.'
-    siteUrl = 'https://github.com/apl-devs/Permissions-Helper'
-    gitUrl = 'https://github.com/apl-devs/Permissions-Helper.git'
-    libraryVersion = '1.1'
-    developerId = 'Andrew-Quebe'
-    developerName = 'Andrew Quebe'
-    developerEmail = 'andrewquebe@vexigon.com'
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
+    PUBLISH_GROUP_ID = 'com.github.apl-devs'
+    PUBLISH_ARTIFACT_ID = 'perms-helper'
+    PUBLISH_VERSION = '1.1'
 }
 
 android {
@@ -45,57 +33,4 @@ dependencies {
     implementation 'com.android.support:design:27.0.2'
 }
 
-apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'
-
-apply plugin: 'com.jfrog.bintray'
-
-version = libraryVersion
-
-task sourcesJar(type: Jar) {
-    from android.sourceSets.main.java.srcDirs
-    classifier = 'sources'
-}
-
-task javadoc(type: Javadoc) {
-    source = android.sourceSets.main.java.srcDirs
-    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-}
-
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
-    from javadoc.destinationDir
-}
-artifacts {
-    archives javadocJar
-    archives sourcesJar
-}
-
-// Bintray
-Properties properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStream())
-
-bintray {
-    user = properties.getProperty("bintray.user")
-    key = properties.getProperty("bintray.apikey")
-
-    configurations = ['archives']
-    pkg {
-        repo = bintrayRepo
-        name = bintrayName
-        desc = libraryDescription
-        websiteUrl = siteUrl
-        userOrg = 'apl-devs'
-        vcsUrl = gitUrl
-        licenses = allLicenses
-        publish = true
-        publicDownloadNumbers = true
-        version {
-            desc = libraryDescription
-            gpg {
-                sign = true //Determines whether to GPG sign the files. The default is false
-                passphrase = properties.getProperty("bintray.gpg.password")
-                //Optional. The passphrase for GPG signing'
-            }
-        }
-    }
-}
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
