@@ -4,7 +4,9 @@ A library that generates an activity based on the required permissions for your 
 # Compile in your Project
 The library is on jCenter by default. Add this in your app's build.gradle file:
 
-
+```
+// Temporarily under construction
+```
 
 ## Download the Sample (Optional)
 
