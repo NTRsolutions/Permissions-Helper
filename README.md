@@ -5,9 +5,7 @@ A library that generates an activity based on the required permissions for your 
 The library is on jCenter by default. Add this in your app's build.gradle file:
 
 ```
-dependencies {
-    compile 'com.github.apl-devs:perms-helper:1.1'
-}
+// Temporarily under construction
 ```
 
 ## Download the Sample (Optional)
