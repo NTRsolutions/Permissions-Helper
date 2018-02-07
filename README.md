@@ -1,11 +1,21 @@
-# Permissions-Helper
+# Permissions-Helper [ ![Download](https://api.bintray.com/packages/apl-devs/maven/Permissions-Helper/images/download.svg) ](https://bintray.com/apl-devs/maven/Permissions-Helper/_latestVersion)
 A library that generates an activity based on the required permissions for your app. It loads the permissions into a list and will request them upon continuing through the activity flow.
 
 # Compile in your Project
 The library is on jCenter by default. Add this in your app's build.gradle file:
 
 ```
-// Temporarily under construction
+repositories {
+    maven {
+        url  "https://dl.bintray.com/apl-devs/maven"
+    }
+}
+
+dependencies {
+    ...
+    compile 'com.github.apl-devs:perms-helper:1.1'
+    ...
+}
 ```
 
 ## Download the Sample (Optional)
