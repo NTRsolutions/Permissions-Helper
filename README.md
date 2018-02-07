@@ -1,14 +1,10 @@
-# Permissions-Helper [ ![Download](https://api.bintray.com/packages/andrew-quebe/maven/Android-Permission-Helper/images/download.svg) ](https://bintray.com/andrew-quebe/maven/Android-Permission-Helper/_latestVersion)
+# Permissions-Helper
 A library that generates an activity based on the required permissions for your app. It loads the permissions into a list and will request them upon continuing through the activity flow.
 
 # Compile in your Project
 The library is on jCenter by default. Add this in your app's build.gradle file:
 
-```
-dependencies {
-	compile 'com.amqtech:perms-helper:1.0.2'
-}
-````
+
 
 ## Download the Sample (Optional)
 
