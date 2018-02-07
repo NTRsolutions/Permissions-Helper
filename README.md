@@ -2,7 +2,7 @@
 A library that generates an activity based on the required permissions for your app. It loads the permissions into a list and will request them upon continuing through the activity flow.
 
 # Compile in your Project
-The library is on jCenter by default. Add this in your app's build.gradle file:
+To add to your project, put the following code inside your app module gradle file.
 
 ```
 repositories {
