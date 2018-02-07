@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     ...
-    compile 'com.github.apl-devs:Android-Helper:0.5'
+    compile 'com.github.apl-devs:perms-helper:1.1'
     ...
 }
 ```
