@@ -1,4 +1,4 @@
-# Permissions-Helper [ ![Download](https://api.bintray.com/packages/andrew-quebe/maven/perms-helper/images/download.svg) ](https://bintray.com/andrew-quebe/maven/perms-helper/_latestVersion)
+# Permissions-Helper
 A library that generates an activity based on the required permissions for your app. It loads the permissions into a list and will request them upon continuing through the activity flow.
 
 # Compile in your Project
