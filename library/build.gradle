@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 ext {
-    PUBLISH_GROUP_ID = 'com.apl-devs'
+    PUBLISH_GROUP_ID = 'com.github.apl-devs'
     PUBLISH_ARTIFACT_ID = 'perms-helper'
     PUBLISH_VERSION = '1.1'
 }
