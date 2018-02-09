@@ -1,4 +1,7 @@
-# Permissions-Helper [ ![Download](https://api.bintray.com/packages/apl-devs/maven/Permissions-Helper/images/download.svg) ](https://bintray.com/apl-devs/maven/Permissions-Helper/_latestVersion)
+# Permissions-Helper 
+[![Download](https://api.bintray.com/packages/apl-devs/maven/Permissions-Helper/images/download.svg) ](https://bintray.com/apl-devs/maven/Permissions-Helper/_latestVersion)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/44793fcd910b4d0b872690cd9ec52a9a)](https://www.codacy.com/app/Andrew-Quebe/Permissions-Helper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=apl-devs/Permissions-Helper&amp;utm_campaign=Badge_Grade)
+
 A library that generates an activity based on the required permissions for your app. It loads the permissions into a list and will request them upon continuing through the activity flow.
 
 # Compile in your Project
